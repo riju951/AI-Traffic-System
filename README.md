@@ -1,142 +1,92 @@
-# Adaptive Traffic Signal Control System
+Certainly! Here's a version that you can copy and paste directly into your README.md file:
 
+```markdown
+# Tromso - AI Traffic Management Solution
 
-![Stars](https://img.shields.io/github/stars/VedantKhairnar/Adaptive-Traffic-Signal-Control-System.svg?style=social)
-![Forks](https://img.shields.io/github/forks/VedantKhairnar/Adaptive-Traffic-Signal-Control-System.svg?style=social)
-![GitHub contributors](https://img.shields.io/github/contributors/VedantKhairnar/Adaptive-Traffic-Signal-Control-System.svg)
-![Language](https://img.shields.io/github/languages/top/VedantKhairnar/Adaptive-Traffic-Signal-Control-System.svg)
-[![GitHub](https://img.shields.io/github/license/VedantKhairnar/Adaptive-Traffic-Signal-Control-System.svg)](https://choosealicense.com/licenses/mit)
-[![Say Thanks!](https://img.shields.io/badge/Say-Thanks!-yellow.svg)](https://vedantkhairnar.ml)
-[![HitCount](http://hits.dwyl.io/VedantKhairnar/Adaptive-Traffic-Signal-Control-System.svg)](http://hits.dwyl.io/VedantKhairnar/Adaptive-Traffic-Signal-Control-System)
-![Issues](https://img.shields.io/github/issues/VedantKhairnar/Adaptive-Traffic-Signal-Control-System)
-![PRsWelcome](https://img.shields.io/badge/PRs-welcome-informational)
+## 🚦 Hack for India 2023 | Silver Oak University 🚦
 
-## 1. Abstract :
+---
 
-Traffic congestion is becoming a serious problem with a large number of cars on the roads. Vehicles queue length waiting to be processed at the intersection is rising sharply with the increase of the traffic flow, and the traditional traffic lights cannot efficiently schedule it. 
+### **Team Members**
+1. **Rijans Bhagat**
+2. **Setu Parmar**
+3. **Kushagra Saruparia**
 
-In fact, we use computer vision and machine learning to have the characteristics of the competing trafc ows at the signalized road intersection. This is done by a state-of-the-art, real-time object detection based on a deep Convolutional Neural Networks called You Only Look Once (YOLO). Then traffic signal phases are optimized according to collected data, mainly queue density and waiting time per vehicle, to enable as much as more vehicles to pass safely with minimum waiting time. YOLO can be implemented on embedded controllers using Transfer Learning
-technique.
+---
 
-## 2. Problem Statement :
+![Traffic AI Banner](./images/banner.jpg) <!-- Remember to replace with your actual image path or link. -->
 
-To build a self adaptive traffic light control system based on yolo.Disproportionate and
-diverse traffic in different lanes leads to inefficient utilization of same time slot for each
-of them characterized by slower speeds, longer trip times, and increased vehicular
-queuing.To create a system which enable the traffic management system to take time
-allocation decisions for a particular lane according to the traffic density on other
-different lanes with the help of cameras, image processing modules.
+### **Project Overview**
+In modern cities, the bane of daily commute is often unpredictable traffic congestion. With the current infrastructure, traffic light timings are mostly static and don't adapt to real-time traffic conditions. This leads to unnecessary traffic congestion and wastage of time for the daily commuter. Our solution? An intelligent traffic light control system that alters its timings dynamically based on real-time traffic congestion.
 
-## 3. Introduction :
+---
 
-Traffic congestion is a major problem in many cities, and the fixed-cycle light signal controllers are not resolving the high waiting time in the intersection. We see often a policeman managing the movements instead of the traffic light. He sees road status and decides the allowed duration of each direction. This human achievement encourages us to create a smart Traffic light control taking into account the real time traffic condition and smartly manage the intersection. To implement such a system, we need two main parts: eyes to watch the real-time road condition and a brain to process it. A traffic signal system at its core has two major tasks: move as many users through the intersection as possible doing this with as little conflict between these users as possible.
+### **Theme**: AI Traffic Management
+#### **Problem Statement**: Altering traffic light timings based on the congestion of traffic per lane using OpenCV and Neural Networks.
 
-## 4. Execution
-### Demo
+---
 
-You can see the demo of the project via the gif below.
+### **Features**
+* **Real-time Traffic Analysis**: Using OpenCV, we analyze live camera feeds to assess the volume of traffic in each lane at an intersection.
+* **Dynamic Traffic Light Timings**: Neural network models predict the optimal traffic light durations to minimize congestion.
+* **Adaptive Learning**: Our model becomes more accurate over time as it learns from more data.
+* **Scalable**: Can be easily deployed across multiple intersections and traffic conditions.
+* **Eco-Friendly**: Reducing traffic congestion also means reducing the amount of time cars spend idling, leading to reduced carbon emissions.
 
-![Gif of a demo project could not be loaded](https://github.com/nikola1011/yolov3-car-counter/blob/master/demo-yolov3-dlib-window-rec.gif)
+---
 
-### Literature
-The projects is based on [Tensor nets](https://github.com/taehoonlee/tensornets), [keras-yolov3 repository](https://github.com/experiencor/keras-yolo3) - find more detailed read on the [blog](https://towardsdatascience.com/object-detection-using-yolov3-using-keras-80bf35e61ce1).
-### Dependencies
-Install dependencies via pip specified by requirements.txt file.
-The code is tested and run with Python 3.7.4 and Python 3.5.6 on Ubuntu 18.04.3 LTS.
-(Windows 10 platforms should also be able to run the project).
+### **Technical Stack**
+* **Computer Vision**: OpenCV
+* **Machine Learning**: Custom Neural Network using Tensorflow
+* **Backend**: Python Flask
+* **Frontend**: React.js (For traffic data visualization)
 
+---
 
-## 5. Technology :
+### **Installation & Setup**
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/Tromso-AI-Traffic-Solution/repo.git
+   ```
 
-### 5.1 YOLO
+2. **Set Up the Environment**
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-You only look once (YOLO) is a state-of-the-art, real-time object detection
-systemYOLO, a new approach to object detection. Prior work on object detection
-repurposes classifiers to perform detection. Instead, we frame object detection as a
-regression problem to spatially separated bounding boxes and associated class
-probabilities. A single neural network predicts bounding boxes and class probabilities
-directly from full images in one evaluation. Since the whole detection pipeline is a
-single network, it can be optimized end-to-end directly on detection performance.
+3. **Run the Application**
+   ```sh
+   python main.py
+   ```
 
-![yolo](https://github.com/4Tron/Adaptive-Traffic-Signal-Control-System/blob/master/images/yolo.jpg)
+4. Access the frontend dashboard at `http://localhost:3000` to visualize real-time data.
 
-The object detection task consists in determining the location on the image where
-certain objects are present, as well as classifying those objects. Previous methods for
-this, like R-CNN and its variations, used a pipeline to perform this task in multiple
-steps. This can be slow to run and also hard to optimize, because each individual
-component must be trained separately. YOLO, does it all with a single neural network.
+---
 
-![yolo_net](https://github.com/4Tron/Adaptive-Traffic-Signal-Control-System/blob/master/images/yolo%20net.png)
+### **Future Enhancements**
+* **Integration with Smart Cities**: Collaborate with municipalities to integrate our solution into existing smart city initiatives.
+* **Prediction of Traffic Patterns**: With enough data, predict future traffic patterns to better prepare for congestion.
+* **Emergency Vehicle Priority**: Detect emergency vehicles and alter traffic lights to give them a clear path.
 
-### YoloV3 Car Counter
+---
 
-This is a demo project that uses YoloV3 neural network to count vehicles on a given video. The detection happens every x frames where x can be specified. Other times the dlib library is used for tracking previously detected vehicles. Furthermore, you can edit confidence detection level, number of frames to count vehicle as detected before removing it from trackable list and the maximum distance from centroid (see CentroidTracker class), number of frames to skip detection (and only use tracking) and the whether to use the original video size as annotations output or the YoloV3 416x416 size.
+### **Acknowledgments**
+A special thank you to **Hack for India 2023** and **Silver Oak University** for providing the platform to showcase our solution.
 
-YoloV3 model is pretrained and downloaded (Internet connection is required for the download process).
+---
 
-## 6. Working :-
+### **Contact Us**
+* **Rijans Bhagat**: rijans@email.com
+* **Setu Parmar**: setu@email.com
+* **Kushagra Saruparia**: kushagra@email.com
 
-![signals](https://github.com/4Tron/Adaptive-Traffic-Signal-Control-System/blob/master/images/signal.png)
+---
 
-The solution can be explained in four simple steps:
+Feel free to fork, star 🌟, and contribute to this project. Let's work together to make our cities more efficient and congestion-free!
 
-    1.Get a real time image of each lane.
-    2.Scan and determine traffic density.
-    3.Input this data to the Time Allocation module.
-    4.The output will be the time slots for each lane, accordingly.
+---
 
-![flow](https://github.com/4Tron/Adaptive-Traffic-Signal-Control-System/blob/master/images/seq.png)
+**© 2023 Tromso Team**. All Rights Reserved.
+```
 
-### 6.1  Sequence of operations performed:
-
-    1.Camera sends images after regular short intervals to our system.
-    2.The system determines further the number of cars in the lane and hence computes its
-    relative density with respect to other lanes.
-    3.Time allotment module takes input (as traffic density) from this system and
-    determines an optimized and efficient time slot.
-    4.This value is then triggered by the microprocessor to the respective Traffic Lights.
-
-
-## 7. Code :
-### 7.1 Synchronization logic:
-
-    f = open("out.txt", "r")
-    no_of_vehicles=[]
-    no_of_vehicles.append(int(f.readline()))
-    no_of_vehicles.append(int(f.readline()))
-    no_of_vehicles.append(int(f.readline()))
-    no_of_vehicles.append(int(f.readline()))
-    baseTimer = 120 # baseTimer = int(input("Enter the base timer value"))
-    timeLimits = [5, 30] # timeLimits = list(map(int,input("Enter the time limits ").split()))
-    print("Input no of vehicles : ", *no_of_vehicles)
-    
-    t = [(i / sum(no_of_vehicles)) * baseTimer if timeLimits[0] < (i / sum(no_of_vehicles)) * baseTimer < timeLimits[1] else min(timeLimits, key=lambda x: abs(x - (i / sum(no_of_vehicles)) * baseTimer)) for i in no_of_vehicles]
-    print(t, sum(t))
-
-
-## 8. Result : 
-![](https://github.com/4Tron/Adaptive-Traffic-Signal-Control-System/blob/master/images/op.png)
-
-## 9. Conclusion :
-
-The goal of this work is to improve intelligent transport systems by developing a Self-adaptive
-algorithm to control road traffic based on deep Learning. This new system facilitates the
-movement of cars in intersections, resulting in reducing congestion, less CO2 emissions, etc.
-The richness that video data provides highlights the importance of advancing the state-of-the-art
-in object detection, classication and tracking for real-time applications. YOLO provides
-extremely fast inference speed with slight compromise in accuracy, especially at lower
-resolutions and with smaller objects. While real-time inference is possible, applications that
-utilize edge devices still require improvements in either the architecture’s design or edge
-device’s hardware.
-Finally, we have proposed a new algorithm taking this real-time data from YOLO and
-optimizing phases in order to reduce vehicle waiting time.
-
-
-## 10.Extensibility :
-You can easily extend this project by changing the classes you are interested in detecting and tracking (see what classes does YoloV3 support and/or change the neural network used by tensornets for better speed/accuracy.
-
-## Developer :
-
-[![](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/images/0)](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/links/0)[![](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/images/1)](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/links/1)[![](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/images/2)](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/links/2)[![](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/images/3)](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/links/3)[![](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/images/4)](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/links/4)[![](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/images/5)](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/links/5)[![](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/images/6)](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/links/6)[![](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/images/7)](https://sourcerer.io/fame/VedantKhairnar/VedantKhairnar/Adaptive-Traffic-Signal-Control-System/links/7)
-
-[Vedant Khairnar](http://vedantkhairnar.ml/)
+Remember to replace placeholders like image paths, repository links, and email addresses with actual values.
