@@ -10,7 +10,6 @@
 
 ---
 
-![Traffic AI Banner]
 https://github.com/riju951/AI-Traffic-System/assets/72542794/28b9abe4-e95e-44fe-b5b2-6f3840df8826
  <!-- You should provide an actual link or path for the image. -->
 
