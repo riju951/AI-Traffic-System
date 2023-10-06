@@ -1,12 +1,8 @@
-Certainly! Here's a version that you can copy and paste directly into your README.md file:
-
-```markdown
 # Tromso - AI Traffic Management Solution
 
 ## 🚦 Hack for India 2023 | Silver Oak University 🚦
 
 ---
-
 ### **Team Members**
 1. **Rijans Bhagat**
 2. **Setu Parmar**
@@ -14,7 +10,7 @@ Certainly! Here's a version that you can copy and paste directly into your READM
 
 ---
 
-![Traffic AI Banner](./images/banner.jpg) <!-- Remember to replace with your actual image path or link. -->
+![Traffic AI Banner](./images/banner.jpg) <!-- You should provide an actual link or path for the image. -->
 
 ### **Project Overview**
 In modern cities, the bane of daily commute is often unpredictable traffic congestion. With the current infrastructure, traffic light timings are mostly static and don't adapt to real-time traffic conditions. This leads to unnecessary traffic congestion and wastage of time for the daily commuter. Our solution? An intelligent traffic light control system that alters its timings dynamically based on real-time traffic congestion.
@@ -87,6 +83,5 @@ Feel free to fork, star 🌟, and contribute to this project. Let's work togethe
 ---
 
 **© 2023 Tromso Team**. All Rights Reserved.
-```
 
-Remember to replace placeholders like image paths, repository links, and email addresses with actual values.
+---
