@@ -72,9 +72,9 @@ A special thank you to **Hack for India 2023** and **Silver Oak University** for
 ---
 
 ### **Contact Us**
-* **Rijans Bhagat**: rijans@email.com
-* **Setu Parmar**: setu@email.com
-* **Kushagra Saruparia**: kushagra@email.com
+* **Rijans Bhagat**: rijans.bhagat003@email.com
+* **Setu Parmar**: setuparamr0402@email.com
+* **Kushagra Saruparia**: kushagra.saruparia@email.com
 
 ---
 
