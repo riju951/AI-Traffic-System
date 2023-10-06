@@ -74,9 +74,9 @@ A special thank you to **Hack for India 2023** and **Silver Oak University** for
 ---
 
 ### **Contact Us**
-* **Rijans Bhagat**: rijans@email.com
-* **Setu Parmar**: setu@email.com
-* **Kushagra Saruparia**: kushagra@email.com
+* **Rijans Bhagat**: rijans.bhagat003@email.com
+* **Setu Parmar**: setuparmar0403@email.com
+* **Kushagra Saruparia**: kushagra.saruparia@email.com
 
 ---
 
@@ -88,5 +88,5 @@ Feel free to fork, star 🌟, and contribute to this project. Let's work togethe
 
 ---
 
-**Note**: Make sure to replace placeholders like image paths, repository links, and email addresses with actual values. Add any logos or additional media assets to enhance the visual appeal of the README.
+
 
