@@ -67,26 +67,6 @@ In modern cities, the bane of daily commute is often unpredictable traffic conge
 
 ---
 
-### **Acknowledgments**
-A special thank you to **Hack for India 2023** and **Silver Oak University** for providing the platform to showcase our solution.
-
----
-
-### **Contact Us**
-* **Rijans Bhagat**: rijans.bhagat003@email.com
-* **Setu Parmar**: setuparamr0402@email.com
-* **Kushagra Saruparia**: kushagra.saruparia@email.com
-
----
-
-Feel free to fork, star 🌟, and contribute to this project. Let's work together to make our cities more efficient and congestion-free!
-
----
-
-**© 2023 Tromso Team**. All Rights Reserved.
-
----
-
 ### **Presentation**
 
 ![Presentation pptx2_page-0001](https://github.com/riju951/AI-Traffic-System/assets/82694741/0b91d7af-a196-456a-a006-75de61ff0e9a)
@@ -109,7 +89,25 @@ Feel free to fork, star 🌟, and contribute to this project. Let's work togethe
 
 ---
 
+### **Acknowledgments**
+A special thank you to **Hack for India 2023** and **Silver Oak University** for providing the platform to showcase our solution.
 
+---
+
+### **Contact Us**
+* **Rijans Bhagat**: rijans.bhagat003@email.com
+* **Setu Parmar**: setuparamr0402@email.com
+* **Kushagra Saruparia**: kushagra.saruparia@email.com
+
+---
+
+Feel free to fork, star 🌟, and contribute to this project. Let's work together to make our cities more efficient and congestion-free!
+
+---
+
+**© 2023 Tromso Team**. All Rights Reserved.
+
+---
 
 
 
