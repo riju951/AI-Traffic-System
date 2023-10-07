@@ -86,3 +86,33 @@ Feel free to fork, star 🌟, and contribute to this project. Let's work togethe
 **© 2023 Tromso Team**. All Rights Reserved.
 
 ---
+
+### **Presentation**
+
+![Presentation pptx2_page-0001](https://github.com/riju951/AI-Traffic-System/assets/82694741/0b91d7af-a196-456a-a006-75de61ff0e9a)
+
+![Presentation pptx2_page-0002](https://github.com/riju951/AI-Traffic-System/assets/82694741/619bafbe-58f8-4b04-bad8-a6b467f8a501)
+
+![Presentation pptx2_page-0003](https://github.com/riju951/AI-Traffic-System/assets/82694741/54d3a142-895f-4014-814f-b82aaf0a5032)
+
+![Presentation pptx2_page-0004](https://github.com/riju951/AI-Traffic-System/assets/82694741/1e1fd92e-a13d-4ed4-9dc2-b50517c28ecf)
+
+![Presentation pptx2_page-0005](https://github.com/riju951/AI-Traffic-System/assets/82694741/655a541f-86cc-4ede-9232-c582b0d1b258)
+
+![Presentation pptx2_page-0006](https://github.com/riju951/AI-Traffic-System/assets/82694741/f3ee1f59-bd33-4a2d-979e-74177c435d17)
+
+![Presentation pptx2_page-0007](https://github.com/riju951/AI-Traffic-System/assets/82694741/cac2de23-d2d9-4429-a273-d98939f5a8b2)
+
+![Presentation pptx2_page-0008](https://github.com/riju951/AI-Traffic-System/assets/82694741/9f39c162-09de-4f93-8770-a9e715df44b7)
+
+![Presentation pptx2_page-0009](https://github.com/riju951/AI-Traffic-System/assets/82694741/4e52490c-f857-4955-aa0e-d20ef3a7ff16)
+
+---
+
+
+
+
+
+
+
+
